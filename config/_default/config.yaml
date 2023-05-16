@@ -74,3 +74,7 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+  markup:
+  goldmark:
+    renderer:
+      unsafe: true
